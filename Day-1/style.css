@@ -1,0 +1,318 @@
+*{  
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Poppins, sans-serif;
+}
+
+body{
+    background-color: rgb(51, 50, 50);
+}
+
+.text-yellow{
+    color: rgb(255, 204, 0);
+}
+
+.text-gray{
+    color: rgb(161, 160, 158);
+    font-size: 1.2rem;
+}
+
+#element{
+    color: rgb(255, 204, 0);
+    font-size: 2.8rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+    background-color: rgb(37, 37, 37);
+}
+
+nav .right{
+    padding-right: 30px;
+}
+
+nav .left{
+    font-size: 1.5rem;
+    padding-left: 70px;
+}
+
+nav .left:hover{
+    color: rgb(255, 204, 0);
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav ul li a:hover{
+    color: rgb(255, 204, 0);
+    font-size: 1.01rem;
+    cursor: pointer;
+}
+
+main hr{
+    border: 0;
+    background-color: rgb(161, 160, 158);
+    height: 1.2px;
+    margin: 25px 44px;
+}
+
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.firstSection >div{
+    width: 30%;
+}
+
+.firstSection .leftSection{
+    font-size: 2.6rem;
+    margin: 30px 0;
+}
+
+
+.firstSection .rightSection img{
+    width: 80% ;
+}
+
+#about{
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 95vh;
+
+}
+
+#about h1{
+    font-size: 1.9rem;
+}
+
+#about .box{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+.box > div{
+    margin: 30px 35px;
+    padding: 15px;
+    width: 450px;
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(1, 1, 1, 0.5);
+}
+
+.box span{
+    font-size: 1.2rem;
+}
+
+.box p{
+    font-size: 1.1rem;
+    color: rgb(161, 160, 158);
+}
+
+.box button{
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(196, 170, 66);
+}
+
+.box .undergraduate-card{
+    background-color: rgb(37, 37, 37);
+    /* margin: 0px 40px; */
+    transition: all 0.3s ease;
+}
+
+.box .undergraduate-card:hover{
+    width: 451px;
+    height: 270px;
+    background-color: rgb(255, 204, 0);
+    box-shadow: inset 0 0 10px rgba(1, 1, 1, 0.5);
+    p{
+        color: black;
+    }
+
+    span{
+        color: black;
+    }
+
+    em{
+        color: black;
+    }
+
+    span{
+        color: white;
+        font-weight: bold;
+    }
+}
+
+.box .school-card{
+    background-color: rgb(37, 37, 37);
+    /* margin: 0px 40px; */
+    transition: all 0.3s ease;
+}
+
+.box .school-card:hover{
+    background-color: rgb(255, 204, 0);
+    width: 451px;
+    height: 270px;
+    box-shadow: inset 0 0 10px rgba(1, 1, 1, 0.5);
+    p{
+        color: black;
+    }
+
+    em{
+        color: black;
+    }
+
+    span{
+        color: white;
+        font-weight: bold;
+    }
+}
+
+.thirdSection{
+    max-width: 80vw;
+    margin: auto;   
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 62vh;
+}
+.thirdSection h1{
+    font-size: 1.9rem;
+}
+
+.languages{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.languages > div{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+
+}
+
+.skills-box > div img{
+    height: 50px;
+    width: 50px;
+    margin:16px;
+    object-fit:cover;
+    border: 0;
+    border-radius: 50%;
+}
+
+.knowledge-bar{
+    display: flex;
+    align-items: center;
+    height: 7px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.languages >div span{
+    margin-left: 20px;
+    font-size: 1.2rem;
+    color: rgb(161, 160, 158);
+}
+
+.percentage{
+    border-radius: 5px;
+}
+
+.html .percentage{
+    width: 90%;
+    height: 5px;
+    padding: 1px 0px;
+    background-color: rgb(255, 204, 0);
+}
+
+
+.css .percentage{
+    width: 80%;
+    height: 5px;
+    padding: 1px 0px;
+    background-color: rgb(255, 204, 0);
+}
+
+.js .percentage{
+    width: 70%;
+    height: 5px;
+    padding: 1px 0px;
+    background-color: rgb(255, 204, 0);
+}
+
+.c .percentage{
+    width: 60%;
+    height: 5px;
+    padding: 1px 0px;
+    background-color: rgb(255, 204, 0);
+}
+
+.python .percentage{
+    width: 50%;
+    height: 5px;
+    padding: 1px 0px;
+    background-color: rgb(255, 204, 0);
+}
+
+.cpp .percentage{
+    width: 40%;
+    height: 5px;
+    padding: 1px 0px;
+    background-color: rgb(255, 204, 0);
+}
+
+.java .percentage{
+    width: 30%;
+    height: 5px;
+    padding: 1px 0px;
+    background-color: rgb(255, 204, 0);
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vh;
+    background-color: rgb(78, 78, 78);
+
+    font-size: 1.1rem;
+}
+
+footer .rightFooter > ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .rightFooter > ul li{
+    list-style: none;
+    margin: 0 40px;
+}
